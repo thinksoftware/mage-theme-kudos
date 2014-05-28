@@ -27,9 +27,9 @@
  * @var Mage_Page_Block_Html_Header $this
  */
 ?>
-<?php $headerusp1 = Mage::getModel('cms/block')->load('pt001-header-usp1'); ?>
-<?php $headerusp2 = Mage::getModel('cms/block')->load('pt001-header-usp2'); ?>
-<?php $headerusp3 = Mage::getModel('cms/block')->load('pt001-header-usp3'); ?>
+<?php $headerusp1 = Mage::getModel('cms/block')->load('kudos-header-usp1'); ?>
+<?php $headerusp2 = Mage::getModel('cms/block')->load('kudos-header-usp2'); ?>
+<?php $headerusp3 = Mage::getModel('cms/block')->load('kudos-header-usp3'); ?>
 <div class="header-container">
 
 	<div class="header-top">
@@ -43,15 +43,15 @@
     	    <div class="header-usps">
     	    	<div class="usp1">
     	    		<div class="headline"><?php echo $headerusp1->getTitle(); ?></div>
-    	    		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-header-usp1')->toHtml() ?>
+    	    		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-header-usp1')->toHtml() ?>
     	    	</div>
     	    	<div class="usp2">
     	    		<div class="headline"><?php echo $headerusp2->getTitle(); ?></div>
-    	    		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-header-usp2')->toHtml() ?>
+    	    		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-header-usp2')->toHtml() ?>
     	    	</div>
     	    	<div class="usp3">
     	    		<div class="headline"><?php echo $headerusp3->getTitle(); ?></div>
-    	    		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-header-usp3')->toHtml() ?>
+    	    		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-header-usp3')->toHtml() ?>
     	    	</div>
     	    </div>
     	    

@@ -16,14 +16,25 @@ www.pagayo.com
 
 * { 
 	margin: 0; 
-	padding: 0; 
+	/* padding: 0; */ 
 }
 
-body { 
-	background: #fff; 
-	font: 12px/1.35 Arial, Helvetica, sans-serif; 
-	color: #222; 
+body {
+	color: #000; 
+	color: #076195; 
 	text-align: left; 
+  background-image: url(http://strongs.thinksoftware.net.au/skin/frontend/default/strongsauk-001/images/img_01.png);
+  background-position-x: 50%;
+  background-position-y: 0%;
+  background-size: initial;
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat;
+  background-repeat: repeat-x;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #000;
+	font: 12px/1.35 Arial, Helvetica, sans-serif;
 }
 
 img { 
@@ -32,12 +43,12 @@ img {
 }
 
 a {
-	color: #004f9a;
+	color: #cdcdcd;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #004f9a;
+	color: #076195;
 	text-decoration: underline;
 }
 
@@ -245,10 +256,9 @@ ul,ol {
 }
 
 .page {
-	min-width: 1234px;
-	text-align: left;
-	background-color: #fff;
-	margin: 0 auto; 
+	min-width: 1300px;
+	text-align: left; 
+	margin: 0 auto;
 }
 
 .page-print { 
@@ -268,18 +278,15 @@ ul,ol {
 	text-align: left; 
 }
 
-.main-supercontainer { 
-	background-color: #f8f8f8; 
-}
 
 .main-container { 
 	padding-bottom: 20px; 
 	padding-top: 14px; 
-	background: url(../images/shadow-main.png) repeat-x center top; 
+	/*background: url(../images/img_01.png) repeat-x center top; */
 }
 
 .main { 
-	width: 1200px; 
+	width: 1300px; 
 	min-height: 260px;
 	margin: 0 auto;  
 	border: 1px solid #ccc; 
@@ -955,7 +962,7 @@ p.required {
 
 .breadcrumbs { 
 	margin: 0 auto 12px; 
-	width: 1234px; 
+	width: 1300px; 
 	font-size: 13px; 
 }
 
@@ -970,11 +977,11 @@ p.required {
 }
 
 .breadcrumbs a { 
-	color: #444;
+	color: #ffffff;
 }
 
 .breadcrumbs a:hover { 
-	color: #000;
+	color: #909090;
 }
 
 .breadcrumbs span { 
@@ -1565,8 +1572,7 @@ a.link-cart{
 	float: left; 
 }
 
-.header-container { 
-	background-color: #ff0000;
+.header-container {
 }
 
 .header-top { 
@@ -1574,7 +1580,7 @@ a.link-cart{
 }
 
 .header{ 
-	width: 1234px;
+	width: 1300px;
 	margin: 0 auto;
 }
 
@@ -1729,14 +1735,14 @@ a.link-cart{
 	text-align: right; 
 }
 
-.header-container .quick-access-container { 
-	background: #e6e6e6; 
-	border-bottom: 1px solid #fff; 
-	padding: 6px 0; 
-}
+.header-container .quick-access-container {
+    width: 1300px;  margin: 0 auto;  color: #fff; padding:8px; }
+
+    
+
 
 .header-container .quick-access { 
-	width: 1234px;
+	width: 1300px;
 	margin: 0 auto;
 }
 
@@ -1745,6 +1751,7 @@ a.link-cart{
 	text-align: right; 
 	margin-top: 7px; 
 	font-size: 13px; 
+	padding-right: 10px;
 }
 
 
@@ -1753,15 +1760,16 @@ a.link-cart{
 
 .nav-container {
 	display: block;
+	width: 1300px;
+	margin: 0 auto;
 	background: #444;
-	background-image: -moz-linear-gradient(top,#444444,#222222);
 	background-image: -webkit-gradient(linear,left top,left bottom,from(#444444),to(#222222));
 	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#444444,endColorStr=#222222);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr=#444444, endColorStr=#222222)"; 
 }
 
 #nav { 
-	width: 1234px;
+	width: 2000px;
 	margin: 0 auto;
 	font-size: 14px; 
 }
@@ -1821,12 +1829,11 @@ a.link-cart{
 	float: left;
 	font-weight: bold;
 	color: #fff;
-	border-right: 1px solid #999;
-	padding: 14px 17px;
+	padding: 14px 23px 10px 20px;
 }
 
 #nav li.level0.nav-1.first a {
-	border-left: 1px solid #999;
+
 }
 
 #nav li a:hover {

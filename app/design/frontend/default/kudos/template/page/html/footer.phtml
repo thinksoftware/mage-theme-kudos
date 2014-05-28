@@ -25,12 +25,12 @@
  */
 ?>
 <?php //echo $this->getChildHtml() ?>
-<?php $footerbox1 = Mage::getModel('cms/block')->load('pt001-footer-box1'); ?> 
-<?php $footerbox2 = Mage::getModel('cms/block')->load('pt001-footer-box2'); ?> 
-<?php $footerbox3 = Mage::getModel('cms/block')->load('pt001-footer-box3'); ?> 
-<?php $footerbox4 = Mage::getModel('cms/block')->load('pt001-footer-box4'); ?> 
-<?php $footerbox5 = Mage::getModel('cms/block')->load('pt001-footer-box5'); ?> 
-<?php $footersocial = Mage::getModel('cms/block')->load('pt001-footer-social'); ?> 
+<?php $footerbox1 = Mage::getModel('cms/block')->load('kudos-footer-box1'); ?> 
+<?php $footerbox2 = Mage::getModel('cms/block')->load('kudos-footer-box2'); ?> 
+<?php $footerbox3 = Mage::getModel('cms/block')->load('kudos-footer-box3'); ?> 
+<?php $footerbox4 = Mage::getModel('cms/block')->load('kudos-footer-box4'); ?> 
+<?php $footerbox5 = Mage::getModel('cms/block')->load('kudos-footer-box5'); ?> 
+<?php $footersocial = Mage::getModel('cms/block')->load('kudos-footer-social'); ?> 
 
 <div class="footer-container">
 	<div class="footer">
@@ -45,7 +45,7 @@
 		        
 		        <div class="footer-social">
 		        	<div class="headline"><?php echo $footersocial->getTitle(); ?></div>
-    				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-social')->toHtml() ?>
+    				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-social')->toHtml() ?>
     			</div>
 		    </div>
 		    <div class="clearer"></div>
@@ -56,23 +56,23 @@
 			<div class="footer2">
 				<div class="box1">
         			<div class="headline"><?php echo $footerbox1->getTitle(); ?></div>
-        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-box1')->toHtml() ?>
+        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-box1')->toHtml() ?>
         		</div>
         		<div class="box2">
         			<div class="headline"><?php echo $footerbox2->getTitle(); ?></div>
-        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-box2')->toHtml() ?>
+        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-box2')->toHtml() ?>
         		</div>
         		<div class="box3">
         			<div class="headline"><?php echo $footerbox3->getTitle(); ?></div>
-        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-box3')->toHtml() ?>
+        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-box3')->toHtml() ?>
         		</div>
         		<div class="box4">
         			<div class="headline"><?php echo $footerbox4->getTitle(); ?></div>
-        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-box4')->toHtml() ?>
+        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-box4')->toHtml() ?>
         		</div>
         		<div class="box5">
         			<div class="headline"><?php echo $footerbox5->getTitle(); ?></div>
-        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-box5')->toHtml() ?>
+        			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-box5')->toHtml() ?>
         		</div>
 				<div class="clearer"></div>
 		    </div>
@@ -82,9 +82,9 @@
 		<div class="footer3-container">
 			<div class="footer3">
 				<div class="footer-payments">
-					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-payments')->toHtml() ?>
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-payments')->toHtml() ?>
 				</div>
-				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pt001-footer-links')->toHtml() ?>
+				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('kudos-footer-links')->toHtml() ?>
     			<div class="copyright">
 					<?php echo $this->getCopyright() ?>
 				</div>

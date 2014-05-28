@@ -2,27 +2,27 @@
 <config>
 
 	<modules>
-		<Think_GSAD>
+		<Think_Kudos>
 			<version>0.1.0</version>
-		</Think_GSAD>
+		</Think_Kudos>
 	</modules>
 	
 	 <global>
 	 	<blocks>
     		<Think>
-				<class>ThinkGSAD_Setup_Block</class>
+				<class>ThinkKudos_Setup_Block</class>
     		</Think>
     	</blocks>
     	<resources>
-    	    <gsad_setup>
+    	    <kudos_setup>
     	        <setup>
-    	            <module>Think_GSAD</module>
+    	            <module>Think_Kudos</module>
 				  <class>Mage_Eav_Model_Entity_Setup</class>
 				</setup>
 				<connection>
 				  <use>default_setup</use>
 				</connection>
-    	    </gsad_setup>
+    	    </kudos_setup>
     	</resources>
      </global>    
 </config>
