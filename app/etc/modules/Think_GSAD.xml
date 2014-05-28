@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Think_GSAD>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Think_GSAD>
+    </modules>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Think_GSAD>
+			<version>0.1.0</version>
+		</Think_GSAD>
+	</modules>
+	
+	 <global>
+	 	<blocks>
+    		<Think>
+				<class>ThinkGSAD_Setup_Block</class>
+    		</Think>
+    	</blocks>
+    	<resources>
+    	    <gsad_setup>
+    	        <setup>
+    	            <module>Think_GSAD</module>
+				  <class>Mage_Eav_Model_Entity_Setup</class>
+				</setup>
+				<connection>
+				  <use>default_setup</use>
+				</connection>
+    	    </gsad_setup>
+    	</resources>
+     </global>    
+</config>
